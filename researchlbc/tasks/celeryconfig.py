@@ -2,12 +2,12 @@
 
 """Configuration of the Celery application."""
 
-BROKER_URL = 'mongodb://localhost:27017/celery'
+BROKER_URL = 'mongodb://localhost:27017/researchlbc'
 
 # Result backend related settings
 CELERY_RESULT_BACKEND = 'mongodb://localhost:27017'
 CELERY_MONGODB_BACKEND_SETTINGS = {
-    'database': 'celery',
+    'database': 'researchlbc',
     'taskmeta_collection': 'task_results',
 }
 
