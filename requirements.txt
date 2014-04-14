@@ -1,0 +1,7 @@
+flask
+celery
+sqlalchemy
+requests
+beautifulsoup4
+pymongo
+-e git+https://github.com/celery/kombu.git@master#egg=kombu
