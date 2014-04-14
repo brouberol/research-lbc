@@ -1,6 +1,6 @@
 flask
 celery
-sqlalchemy
+mongoengine
 requests
 beautifulsoup4
 pymongo
